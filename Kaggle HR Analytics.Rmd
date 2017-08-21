@@ -1,0 +1,15 @@
+---
+title: "Human Resources Analytics"
+output: html_notebook
+---
+
+Question: Why do the most experienced employees leave?
+
+```{r}
+library(data.table)
+library(caret)
+
+read.csv("HR_comma_sep.csv",header=TRUE)
+'
+```
+
